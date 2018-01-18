@@ -68,10 +68,10 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jm\.gradle\caches\tr
 		ADDED from F:\CoolWeather\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from F:\CoolWeather\app\src\main\AndroidManifest.xml:11:9-40
-activity#wolf.coolweather.MainActivity
+activity#wolf.coolweather.CoolWeatherActivity
 ADDED from F:\CoolWeather\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from F:\CoolWeather\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from F:\CoolWeather\app\src\main\AndroidManifest.xml:12:19-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from F:\CoolWeather\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN

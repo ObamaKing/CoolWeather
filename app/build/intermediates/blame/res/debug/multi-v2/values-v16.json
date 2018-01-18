@@ -4,7 +4,17 @@
             "outputFile": "F:\\CoolWeather\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jm\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2a040bbec7c71318d7f1f2679232fead\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\jm\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8acd72d0366e9d45e164ecccd0e110a\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jm\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\9114562670e1f91cd63c4cd68c42d69a\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jm\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\d5d5cb46329d6f1cd395ed369ed441d4\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

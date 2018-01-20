@@ -1,6 +1,7 @@
 package wolf.coolweather.fragment;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -28,6 +29,7 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 import wolf.coolweather.R;
+import wolf.coolweather.WeatherActivity;
 import wolf.coolweather.db.City;
 import wolf.coolweather.db.County;
 import wolf.coolweather.db.Province;
@@ -113,14 +115,18 @@ public class ChooseAreaFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         ltPlaces.setOnItemClickListener((adapterView,view,position,l)->{
-            if (currentLevel==LEVEL_PROVINCE){
-                selectedProvince=provinceList.get(position);
+            if (currentLevel == LEVEL_PROVINCE){
+                selectedProvince = provinceList.get(position);
                 queryCity();
-            }else if (currentLevel==LEVEL_CITY){
+            }else if (currentLevel == LEVEL_CITY){
                 selectedCity=cityList.get(position);
                 queryCounties();
-            }else {
+            }else if(currentLevel == LEVEL_COUNTY){
                 selectedCounty = countyList.get(position);
+                Intent intent = new Intent(getActivity(), WeatherActivity.class);
+                intent.putExtra("weather_id",selectedCounty.getWeatherId());
+                startActivity(intent);
+                getActivity().finish();
             }
         });
     }

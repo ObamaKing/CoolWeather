@@ -8,7 +8,10 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="27" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,6 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="wolf.coolweather.WeatherActivity"
+            android:label="@string/title_activity_weather"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

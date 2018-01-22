@@ -9,7 +9,7 @@
         android:layout_marginStart="10dp"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:background=""/>
+        android:background="@drawable/ic_btn_nav"/>
 
     <TextView
         android:id="@+id/title_city"

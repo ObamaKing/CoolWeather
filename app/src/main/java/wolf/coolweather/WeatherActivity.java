@@ -1,5 +1,6 @@
 package wolf.coolweather;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
@@ -130,46 +131,54 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     private void showWeatherInfo(Weather weather) {
-        String cityName = weather.basic.cityName;
-        String updateTime = weather.basic.update.updateTime.split(" ")[1];
-        String degree = weather.now.temperature + "℃";
-        String weatherInfo = weather.now.more.info;
 
-        titleCity.setText(cityName);
-        degreeText.setText(degree);
-        weatherInfoText.setText(weatherInfo);
-        titleUpdateTime.setText(updateTime);
-        forecastLayout.removeAllViews();
+        if (weather!=null && "ok".equals(weather.status)){
+            String cityName = weather.basic.cityName;
+            String updateTime = weather.basic.update.updateTime.split(" ")[1];
+            String degree = weather.now.temperature + "℃";
+            String weatherInfo = weather.now.more.info;
 
-        for (Forecast forecast : weather.forecastList) {
-            View view = LayoutInflater.from(WeatherActivity.this)
-                    .inflate(R.layout.forecast_item, forecastLayout, false);
-            TextView dateText = view.findViewById(R.id.date_text);
-            TextView infoText = view.findViewById(R.id.info_text);
-            TextView maxText = view.findViewById(R.id.max_text);
-            TextView minText = view.findViewById(R.id.min_text);
+            titleCity.setText(cityName);
+            degreeText.setText(degree);
+            weatherInfoText.setText(weatherInfo);
+            titleUpdateTime.setText(updateTime);
+            forecastLayout.removeAllViews();
 
-            dateText.setText(forecast.date);
-            infoText.setText(forecast.more.info);
-            maxText.setText(forecast.temperature.max);
-            minText.setText(forecast.temperature.min);
+            for (Forecast forecast : weather.forecastList) {
+                View view = LayoutInflater.from(WeatherActivity.this)
+                        .inflate(R.layout.forecast_item, forecastLayout, false);
+                TextView dateText = view.findViewById(R.id.date_text);
+                TextView infoText = view.findViewById(R.id.info_text);
+                TextView maxText = view.findViewById(R.id.max_text);
+                TextView minText = view.findViewById(R.id.min_text);
 
-            forecastLayout.addView(view);
+                dateText.setText(forecast.date);
+                infoText.setText(forecast.more.info);
+                maxText.setText(forecast.temperature.max);
+                minText.setText(forecast.temperature.min);
 
-            if (weather.aqi != null) {
-                aqiText.setText(weather.aqi.aqiCity.aqi);
-                pm25Text.setText(weather.aqi.aqiCity.pm25);
+                forecastLayout.addView(view);
+
+                if (weather.aqi != null) {
+                    aqiText.setText(weather.aqi.aqiCity.aqi);
+                    pm25Text.setText(weather.aqi.aqiCity.pm25);
+                }
+
+                String comfortInfo = "舒适度:" + weather.suggestion.comfort.info;
+                String carWashInfo = "洗车指数:" + weather.suggestion.carWash.info;
+                String sportInfo = "运动建议:" + weather.suggestion.sport.info;
+
+                comfortText.setText(comfortInfo);
+                carWashText.setText(carWashInfo);
+                sportText.setText(sportInfo);
+                forecastLayout.setVisibility(View.VISIBLE);
             }
-
-            String comfortInfo = "舒适度:" + weather.suggestion.comfort.info;
-            String carWashInfo = "洗车指数:" + weather.suggestion.carWash.info;
-            String sportInfo = "运动建议:" + weather.suggestion.sport.info;
-
-            comfortText.setText(comfortInfo);
-            carWashText.setText(carWashInfo);
-            sportText.setText(sportInfo);
-            forecastLayout.setVisibility(View.VISIBLE);
+            Intent intent = new Intent(WeatherActivity.this,AutoUpdateWeatherService.class);
+            startService(intent);
+        }else {
+            Toast.makeText(this,"获取天气信息失败",Toast.LENGTH_SHORT).show();
         }
+
     }
 
     public void requestWeather(String weatherId) {

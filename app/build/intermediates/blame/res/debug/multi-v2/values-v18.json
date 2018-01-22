@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "F:\\CoolWeather\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jm\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\9114562670e1f91cd63c4cd68c42d69a\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "F:\\CoolWeather\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
             "map": [
                 {

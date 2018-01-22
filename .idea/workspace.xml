@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java" line="96" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java" line="98" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca3fa93-ab6b-4c46-915a-2857b25146dc" name="Default" comment="" />
@@ -44,26 +44,48 @@
       <file leaf-file-name="WeatherActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/WeatherActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="69" column="59" lean-forward="false" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+            <state relative-caret-position="289">
+              <caret line="174" column="10" lean-forward="false" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
               <folding>
-                <element signature="e#3304#3305#0" expanded="true" />
-                <element signature="e#3355#3356#0" expanded="true" />
+                <element signature="e#3862#3863#0" expanded="true" />
+                <element signature="e#3913#3914#0" expanded="true" />
+                <element signature="e#8018#8019#0" expanded="true" />
+                <element signature="e#8072#8073#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_weather.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml">
+      <file leaf-file-name="ChooseAreaFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="586">
+              <caret line="136" column="53" lean-forward="false" selection-start-line="136" selection-start-column="53" selection-end-line="136" selection-end-column="53" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Basic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Basic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_weather.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml">
           <provider editor-type-id="android-designer2">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-177">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2089,9 +2111,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Update.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/L.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Weather.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Basic.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Now.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/title.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/now.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/forecast.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/forecast_item.xml" />
@@ -2106,11 +2126,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Suggestion.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Forcast.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Forecast.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/CoolWeatherActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/WeatherActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Basic.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/title.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/WeatherActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java" />
       </list>
     </option>
   </component>
@@ -2137,6 +2159,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CoolWeather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoolWeather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2165,16 +2198,24 @@
             <path>
               <item name="CoolWeather" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="coolweather" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="gson" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="CoolWeather" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="coolweather" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="CoolWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="CoolWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="CoolWeather" type="1abcf292:AndroidViewProjectNode" />
@@ -2184,19 +2225,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CoolWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoolWeather" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2204,7 +2234,7 @@
     <property name="android.sdk.path" value="D:/AndroidSDK" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-nodpi" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2214,9 +2244,9 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CoolWeather\app\src\main\res\drawable-nodpi" />
       <recent name="F:\CoolWeather\app\libs" />
       <recent name="F:\CoolWeather\app\src\main\res\layout" />
-      <recent name="F:\CoolWeather\app\src\main\res\drawable-nodpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2410,30 +2440,30 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873562" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.237581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2487,48 +2517,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/app/libs/gson-2.8.2.jar!/com/google/gson/annotations/Expose.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/glide-4.4.0.jar!/com/bumptech/glide/load/data/AssetPathFetcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/glide-4.4.0.jar!/com/bumptech/glide/load/Transformation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/db/Province.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#251#252#0" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-            <element signature="e#337#338#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/litepal.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/litepal">
       <provider selected="true" editor-type-id="text-editor">
@@ -2595,7 +2583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2603,7 +2590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2613,11 +2599,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
@@ -2640,7 +2621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2648,110 +2628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516085056000" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1516085056000" expanded="false" signature="131:231" ph="..." />
-            <marker date="1516085056000" expanded="false" signature="530:541" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="577:583" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="629:640" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="676:682" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="726:737" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="773:779" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="805:816" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="852:858" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="887:898" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="934:940" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="971:982" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1018:1024" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="1057:1068" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1104:1110" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="1139:1150" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1186:1192" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="1225:1236" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1272:1278" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="1315:1326" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1362:1368" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="1403:1414" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1450:1456" ph=" }" />
-            <marker date="1516085056000" expanded="true" signature="1514:1566" ph="{...}" />
-            <marker date="1516085056000" expanded="true" signature="1622:1674" ph="{...}" />
-            <marker date="1516085056000" expanded="true" signature="1680:1698" ph="/**...*/" />
-            <marker date="1516085056000" expanded="true" signature="1767:1819" ph="{...}" />
-            <marker date="1516085056000" expanded="false" signature="1843:1854" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1890:1896" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="1926:1937" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="1973:1979" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2010:2021" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2057:2063" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2092:2103" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2139:2145" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2179:2190" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2226:2232" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2261:2272" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2308:2314" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2345:2356" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2392:2398" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2430:2441" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2477:2483" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2509:2520" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2556:2562" ph=" }" />
-            <marker date="1516085056000" expanded="true" signature="2618:2670" ph="{...}" />
-            <marker date="1516085056000" expanded="false" signature="2699:2710" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2746:2752" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2784:2795" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2831:2837" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2865:2876" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="2912:2918" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="2967:2978" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3014:3020" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3051:3062" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3098:3104" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3156:3167" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3203:3209" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3257:3268" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3304:3310" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3338:3349" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3385:3391" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3420:3431" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3467:3473" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3513:3524" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3560:3566" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3613:3624" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3660:3666" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="3700:3711" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3747:3753" ph=" }" />
-            <marker date="1516085056000" expanded="true" signature="3823:3875" ph="{...}" />
-            <marker date="1516085056000" expanded="false" signature="3925:3936" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="3972:3978" ph=" }" />
-            <marker date="1516085056000" expanded="true" signature="4048:4100" ph="{...}" />
-            <marker date="1516085056000" expanded="false" signature="4150:4161" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4197:4203" ph=" }" />
-            <marker date="1516085056000" expanded="true" signature="4277:4329" ph="{...}" />
-            <marker date="1516085056000" expanded="false" signature="4383:4394" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4430:4436" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="4469:4480" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4516:4522" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="4560:4571" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4607:4613" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="4646:4657" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4693:4699" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="4731:4742" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4778:4784" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="4818:4829" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="4865:4871" ph=" }" />
-            <marker date="1516085056000" expanded="true" signature="4976:5028" ph="{...}" />
-            <marker date="1516085056000" expanded="true" signature="5117:5169" ph="{...}" />
-            <marker date="1516085056000" expanded="false" signature="5210:5221" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="5257:5263" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="5302:5313" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="5349:5355" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="5382:5393" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="5429:5435" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="5465:5476" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="5512:5518" ph=" }" />
-            <marker date="1516085056000" expanded="false" signature="5544:5555" ph=" { " />
-            <marker date="1516085056000" expanded="false" signature="5591:5597" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2767,103 +2643,67 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/choose_area.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/title.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/aqi.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/forecast.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/forecast.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/now.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/now.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/suggestion.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_weather.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/util/L.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_weather.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/util/L.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/MyApplication.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/util/WolfLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1617">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2883,38 +2723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/butterknife/plugin/ButterKnifePlugin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/butterknife/plugin/FinalRClassBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1954">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/META-INF/gradle-plugins/com.jakewharton.butterknife.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/butterknife/plugin/ButterKnifePlugin.class" />
+    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/butterknife/plugin/FinalRClassBuilder.class" />
+    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/META-INF/gradle-plugins/com.jakewharton.butterknife.properties" />
+    <entry file="jar://$PROJECT_DIR$/app/libs/butterknife-gradle-plugin-8.8.1.jar!/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -2927,14 +2739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2972,32 +2776,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/forecast_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/db/County.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="128" column="39" lean-forward="true" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3005,53 +2797,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://D:/AndroidSDK/sources/android-27/android/os/Build.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/gson/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_nav.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/title.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/WeatherActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="69" column="59" lean-forward="false" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        <state relative-caret-position="289">
+          <caret line="174" column="10" lean-forward="false" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
           <folding>
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3355#3356#0" expanded="true" />
+            <element signature="e#3862#3863#0" expanded="true" />
+            <element signature="e#3913#3914#0" expanded="true" />
+            <element signature="e#8018#8019#0" expanded="true" />
+            <element signature="e#8072#8073#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/wolf/coolweather/fragment/ChooseAreaFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="586">
+          <caret line="136" column="53" lean-forward="false" selection-start-line="136" selection-start-column="53" selection-end-line="136" selection-end-column="53" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
   </component>

@@ -7,6 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,7 @@ import java.util.Objects;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
+import wolf.coolweather.MainActivity;
 import wolf.coolweather.R;
 import wolf.coolweather.WeatherActivity;
 import wolf.coolweather.db.City;
@@ -122,11 +124,19 @@ public class ChooseAreaFragment extends Fragment {
                 selectedCity=cityList.get(position);
                 queryCounties();
             }else if(currentLevel == LEVEL_COUNTY){
-                selectedCounty = countyList.get(position);
-                Intent intent = new Intent(getActivity(), WeatherActivity.class);
-                intent.putExtra("weather_id",selectedCounty.getWeatherId());
-                startActivity(intent);
-                getActivity().finish();
+                String weatherId = countyList.get(position).getWeatherId();
+                if (getActivity() instanceof MainActivity){
+                    Intent intent = new Intent(getActivity(), WeatherActivity.class);
+                    intent.putExtra("weather_id",weatherId);
+                    startActivity(intent);
+                    getActivity().finish();
+                }else if (getActivity() instanceof WeatherActivity){
+                    WeatherActivity activity = (WeatherActivity) getActivity();
+                    activity.drawerLayout.closeDrawers();
+                    activity.swipeRefresh.setRefreshing(true);
+                    activity.requestWeather(weatherId);
+                }
+
             }
         });
     }
